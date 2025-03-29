@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/model\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    z-index: 1000;
+}
+.navlinks{
+    display: flex;
+    gap: 30px;
+}
+.navlinks a{
+    color: rgb(214, 207, 207);
+    font-size: 17px;
+    font-weight: bold;
+    transition: .5s ease;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navlinks a:hover{
+    background-color: rgba(214, 207, 207, 0.422);
+    padding: 10px;
+    border-radius: 10px;
+}
+.icons i{
+    padding: 10px;
+    color: rgb(214, 207, 207);
+    font-size: 20px;
+    font-weight: bold;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.m-text h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+}
+.m-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.m-btn .order{
+    padding: 5px 80px;
+    background-color: rgb(77, 77, 217);
+    transition: .4s ease;
+}
+.m-btn .order:hover{
+    background-color: rgb(74, 74, 143);
+}
+.m-btn .learn{
+    padding: 5px 80px;
+    background-color: white;
+    color: black;
+    transition: .4s ease;
+}
+.m-btn .learn:hover{
+    background-color: rgb(241, 237, 237);
+}
+.model-y{
+    background: url(../images/model\ y.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.y-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.y-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 550;
+}
+.y-text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.y-btn{
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+.y-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.y-btn .order{
+    padding: 5px 80px;
+    background-color: rgb(77, 77, 217);
+    transition: .4s ease;
+}
+.y-btn .order:hover{
+    background-color: rgb(74, 74, 143);
+}
+.y-btn .learn{
+    padding: 5px 80px;
+    background-color: white;
+    color: black;
+    transition: .4s ease;
+}
+.y-btn .learn:hover{
+    background-color: rgb(241, 237, 237);
+}
+.truck{
+    background: url(../images/Truck.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+.t-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: white;
+}
+.t-text h1{
+    font-family: "Audiowide", sans-serif;
+    font-size: 60px;
+}
+.t-text h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.t-rating{
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+.t-star i{
+    color: white;
+    font-size: 20px;
+}
+.t-star-t h3{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.t-btn{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+.t-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.t-btn a{
+    padding: 13px 100px;
+    background-color: rgb(21, 20, 20);
+    color: rgb(168, 163, 163);
+    transition: .4s ease;
+}
+.t-btn a:hover{
+    background-color: rgb(241, 237, 237);
+}
+.model-x{
+    background: url(../images/model\ x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.x-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.x-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 550;
+}
+.x-text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.x-btn{
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+.x-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.x-btn .order{
+    padding: 5px 80px;
+    background-color: rgb(77, 77, 217);
+    transition: .4s ease;
+}
+.x-btn .order:hover{
+    background-color: rgb(74, 74, 143);
+}
+.x-btn .learn{
+    padding: 5px 80px;
+    background-color: white;
+    color: black;
+    transition: .4s ease;
+}
+.x-btn .learn:hover{
+    background-color: rgb(241, 237, 237);
+}
+.solar{
+    background: url(../images/pannels.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.s-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.s-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 550;
+}
+.s-text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.s-btn{
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+.s-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.s-btn .order{
+    padding: 5px 80px;
+    background-color: rgb(77, 77, 217);
+    transition: .4s ease;
+}
+.s-btn .order:hover{
+    background-color: rgb(74, 74, 143);
+}
+.s-btn .learn{
+    padding: 5px 80px;
+    background-color: white;
+    color: black;
+    transition: .4s ease;
+}
+.s-btn .learn:hover{
+    background-color: rgb(241, 237, 237);
+}
+.roof{
+    background: url(../images/roof.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.r-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.r-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 550;
+}
+.r-text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.r-btn{
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+.r-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.r-btn .order{
+    padding: 5px 80px;
+    background-color: rgb(77, 77, 217);
+    transition: .4s ease;
+}
+.r-btn .order:hover{
+    background-color: rgb(74, 74, 143);
+}
+.r-btn .learn{
+    padding: 5px 80px;
+    background-color: white;
+    color: black;
+    transition: .4s ease;
+}
+.r-btn .learn:hover{
+    background-color: rgb(241, 237, 237);
+}
+.powerwall{
+    background: url(../images/Powerwall.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.p-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.p-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 550;
+}
+.p-btn{
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+.p-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.p-btn .order{
+    padding: 5px 80px;
+    background-color: rgb(77, 77, 217);
+    transition: .4s ease;
+}
+.p-btn .order:hover{
+    background-color: rgb(74, 74, 143);
+}
+.p-btn .learn{
+    padding: 5px 80px;
+    background-color: white;
+    color: black;
+    transition: .4s ease;
+}
+.p-btn .learn:hover{
+    background-color: rgb(241, 237, 237);
+}
+.accessories{
+    background: url(../images/Accessories.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.a-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.a-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 550;
+}
+.a-text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.a-btn{
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+.a-btn a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.a-btn .order{
+    padding: 5px 80px;
+    background-color: rgb(77, 77, 217);
+    transition: .4s ease;
+}
+.a-btn .order:hover{
+    background-color: rgb(74, 74, 143);
+}
+.a-btn .learn{
+    padding: 5px 80px;
+    background-color: white;
+    color: black;
+    transition: .4s ease;
+}
+.a-btn .learn:hover{
+    background-color: rgb(241, 237, 237);
+}
+
+
+.tesla-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.tesla-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.tesla-content {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%); 
+    z-index: 2;
+    color: white;
+    max-width: 500px;
+}
+.tesla-content h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.tesla-button {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Gotham', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: opacity 0.3s;
+}
+.tesla-button:hover {
+    opacity: 0.9;
+}
+.tesla-footer {
+    background: white;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} 
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px; 
+    gap: 12px 24px; 
+}  
+.footer-content a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Gotham', Arial, sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: opacity 0.3s;
+}
+.footer-content a:hover {
+    opacity: 0.7;
+}
